@@ -1,0 +1,40 @@
+version: "3"
+services:
+  nginx:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "80:80"
+    volumes:
+      - ./nginx/nginx-reload.sh:/etc/nginx/nginx-reload.sh
+      - ./nginx/nginx.conf:/etc/nginx/nginx.conf
+      - ./nginx/conf.d:/etc/nginx/conf.d
+      - ./html:/usr/share/nginx/html
+      - ./logs/:/var/log/
+    command: ["/etc/nginx/nginx-reload.sh"]
+    restart: always
+  server1:
+    build:
+      context: ./server
+      dockerfile: Dockerfile
+    ports:
+      - 4001:7777
+    environment:
+      - SERVER_MESSAGE="I am messaging from server 1"
+  server2:
+    build:
+      context: ./server
+      dockerfile: Dockerfile
+    ports:
+      - 4002:7777
+    environment:
+      - SERVER_MESSAGE="I am messaging from server 2"
+  server3:
+    build:
+      context: ./server
+      dockerfile: Dockerfile
+    ports:
+      - 4003:7777
+    environment:
+      - SERVER_MESSAGE="I am messaging from server 3"

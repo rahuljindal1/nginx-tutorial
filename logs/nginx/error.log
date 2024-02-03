@@ -1,0 +1,232 @@
+2024/02/03 05:06:05 [emerg] 23#23: no "events" section in configuration
+2024/02/03 05:09:26 [emerg] 25#25: no "events" section in configuration
+2024/02/03 05:09:40 [notice] 27#27: signal process started
+2024/02/03 05:09:40 [notice] 8#8: signal 1 (SIGHUP) received from 27, reconfiguring
+2024/02/03 05:09:40 [notice] 8#8: reconfiguring
+2024/02/03 05:09:40 [notice] 9#9: gracefully shutting down
+2024/02/03 05:09:40 [notice] 10#10: gracefully shutting down
+2024/02/03 05:09:40 [notice] 12#12: gracefully shutting down
+2024/02/03 05:09:40 [notice] 15#15: gracefully shutting down
+2024/02/03 05:09:40 [notice] 14#14: gracefully shutting down
+2024/02/03 05:09:40 [notice] 13#13: gracefully shutting down
+2024/02/03 05:09:40 [notice] 9#9: exiting
+2024/02/03 05:09:40 [notice] 10#10: exiting
+2024/02/03 05:09:40 [notice] 12#12: exiting
+2024/02/03 05:09:40 [notice] 15#15: exiting
+2024/02/03 05:09:40 [notice] 14#14: exiting
+2024/02/03 05:09:40 [notice] 13#13: exiting
+2024/02/03 05:09:40 [notice] 9#9: exit
+2024/02/03 05:09:40 [notice] 10#10: exit
+2024/02/03 05:09:40 [notice] 12#12: exit
+2024/02/03 05:09:40 [notice] 15#15: exit
+2024/02/03 05:09:40 [notice] 14#14: exit
+2024/02/03 05:09:40 [notice] 13#13: exit
+2024/02/03 05:10:00 [emerg] 30#30: no "events" section in configuration
+2024/02/03 05:10:03 [notice] 32#32: signal process started
+2024/02/03 05:10:14 [notice] 35#35: signal process started
+2024/02/03 05:10:28 [notice] 38#38: signal process started
+2024/02/03 05:10:45 [emerg] 41#41: unexpected "}" in /etc/nginx/nginx.conf:4
+2024/02/03 05:11:29 [emerg] 43#43: no host in ":80" of the "listen" directive in /etc/nginx/nginx.conf:3
+2024/02/03 05:11:32 [emerg] 45#45: no host in ":80" of the "listen" directive in /etc/nginx/nginx.conf:3
+2024/02/03 05:11:52 [emerg] 47#47: no host in ":80" of the "listen" directive in /etc/nginx/nginx.conf:3
+2024/02/03 05:12:34 [emerg] 49#49: unexpected "}" in /etc/nginx/nginx.conf:5
+2024/02/03 05:12:38 [notice] 51#51: signal process started
+2024/02/03 05:16:27 [notice] 54#54: signal process started
+2024/02/03 05:17:33 [notice] 57#57: signal process started
+2024/02/03 05:17:41 [notice] 60#60: signal process started
+2024/02/03 05:19:54 [emerg] 7#7: unexpected end of file, expecting ";" or "}" in /etc/nginx/nginx.conf:13
+2024/02/03 05:20:08 [emerg] 9#9: unexpected end of file, expecting ";" or "}" in /etc/nginx/nginx.conf:13
+2024/02/03 05:20:11 [emerg] 11#11: no "events" section in configuration
+2024/02/03 05:20:36 [emerg] 13#13: unexpected end of file, expecting "}" in /etc/nginx/nginx.conf:13
+2024/02/03 05:20:37 [emerg] 15#15: unexpected end of file, expecting "}" in /etc/nginx/nginx.conf:13
+2024/02/03 05:20:38 [emerg] 17#17: pread() returned only 155 bytes instead of 157 in /etc/nginx/nginx.conf:1
+2024/02/03 05:20:39 [emerg] 19#19: unexpected end of file, expecting ";" or "}" in /etc/nginx/nginx.conf:13
+2024/02/03 05:20:45 [notice] 21#21: signal process started
+2024/02/03 05:20:45 [alert] 21#21: kill(8, 1) failed (3: No such process)
+2024/02/03 05:20:49 [notice] 23#23: signal process started
+2024/02/03 05:20:49 [alert] 23#23: kill(8, 1) failed (3: No such process)
+2024/02/03 05:20:53 [notice] 25#25: signal process started
+2024/02/03 05:20:53 [alert] 25#25: kill(8, 1) failed (3: No such process)
+2024/02/03 05:20:57 [notice] 27#27: signal process started
+2024/02/03 05:20:57 [alert] 27#27: kill(8, 1) failed (3: No such process)
+2024/02/03 05:21:24 [error] 9#9: *2 open() "/usr/share/nginx/html/favicon.ico" failed (2: No such file or directory), client: 192.168.65.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2024/02/03 05:23:09 [notice] 11#11: signal process started
+2024/02/03 05:23:14 [error] 13#13: *3 open() "/usr/share/nginx/html/favicon.ico" failed (2: No such file or directory), client: 192.168.65.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2024/02/03 05:25:45 [notice] 14#14: signal process started
+2024/02/03 05:25:51 [notice] 17#17: signal process started
+2024/02/03 05:26:09 [error] 19#19: *6 open() "/usr/share/nginx/html/favicon.ico" failed (2: No such file or directory), client: 192.168.65.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2024/02/03 05:26:13 [error] 19#19: *6 open() "/usr/share/nginx/html/fruits/fruits" failed (2: No such file or directory), client: 192.168.65.1, server: , request: "GET /fruits HTTP/1.1", host: "localhost"
+2024/02/03 05:26:25 [error] 19#19: *6 open() "/usr/share/nginx/html/fruits/fruits" failed (2: No such file or directory), client: 192.168.65.1, server: , request: "GET /fruits HTTP/1.1", host: "localhost"
+2024/02/03 05:26:47 [notice] 20#20: signal process started
+2024/02/03 05:26:59 [error] 19#19: *5 open() "/usr/share/nginx/html/fruits/fruits" failed (2: No such file or directory), client: 192.168.65.1, server: , request: "GET /fruits HTTP/1.1", host: "localhost"
+2024/02/03 05:27:01 [error] 22#22: *7 open() "/usr/share/nginx/html/favicon.ico" failed (2: No such file or directory), client: 192.168.65.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/fruits/"
+2024/02/03 05:27:39 [notice] 23#23: signal process started
+2024/02/03 05:28:40 [notice] 26#26: signal process started
+2024/02/03 05:28:49 [notice] 29#29: signal process started
+2024/02/03 05:29:09 [notice] 32#32: signal process started
+2024/02/03 05:29:14 [notice] 35#35: signal process started
+2024/02/03 05:30:41 [notice] 38#38: signal process started
+2024/02/03 05:30:53 [notice] 41#41: signal process started
+2024/02/03 05:30:58 [notice] 44#44: signal process started
+2024/02/03 05:31:03 [notice] 47#47: signal process started
+2024/02/03 05:31:09 [notice] 50#50: signal process started
+2024/02/03 05:31:12 [notice] 53#53: signal process started
+2024/02/03 05:31:19 [error] 55#55: *12 directory index of "/usr/share/nginx/html/vegetables/" is forbidden, client: 192.168.65.1, server: , request: "GET /vegetables/ HTTP/1.1", host: "localhost"
+2024/02/03 05:32:13 [emerg] 56#56: unexpected "}" in /etc/nginx/nginx.conf:19
+2024/02/03 05:32:16 [error] 55#55: *12 directory index of "/usr/share/nginx/html/vegetables/" is forbidden, client: 192.168.65.1, server: , request: "GET /vegetables/ HTTP/1.1", host: "localhost"
+2024/02/03 05:32:16 [error] 55#55: *12 directory index of "/usr/share/nginx/html/vegetables/" is forbidden, client: 192.168.65.1, server: , request: "GET /vegetables/ HTTP/1.1", host: "localhost"
+2024/02/03 05:32:17 [error] 55#55: *12 directory index of "/usr/share/nginx/html/vegetables/" is forbidden, client: 192.168.65.1, server: , request: "GET /vegetables/ HTTP/1.1", host: "localhost"
+2024/02/03 05:32:17 [error] 55#55: *12 directory index of "/usr/share/nginx/html/vegetables/" is forbidden, client: 192.168.65.1, server: , request: "GET /vegetables/ HTTP/1.1", host: "localhost"
+2024/02/03 05:32:18 [error] 55#55: *12 directory index of "/usr/share/nginx/html/vegetables/" is forbidden, client: 192.168.65.1, server: , request: "GET /vegetables/ HTTP/1.1", host: "localhost"
+2024/02/03 05:32:27 [emerg] 58#58: unexpected "}" in /etc/nginx/nginx.conf:19
+2024/02/03 05:32:32 [emerg] 60#60: invalid number of arguments in "try_files" directive in /etc/nginx/nginx.conf:18
+2024/02/03 05:32:46 [emerg] 62#62: invalid number of arguments in "try_files" directive in /etc/nginx/nginx.conf:18
+2024/02/03 05:33:16 [notice] 64#64: signal process started
+2024/02/03 05:33:25 [notice] 67#67: signal process started
+2024/02/03 05:33:38 [notice] 70#70: signal process started
+2024/02/03 05:33:45 [notice] 73#73: signal process started
+2024/02/03 05:33:51 [notice] 76#76: signal process started
+2024/02/03 05:35:20 [emerg] 79#79: invalid number of arguments in "location" directive in /etc/nginx/nginx.conf:10
+2024/02/03 05:35:43 [emerg] 81#81: unexpected "}" in /etc/nginx/nginx.conf:10
+2024/02/03 05:35:55 [emerg] 83#83: unexpected "}" in /etc/nginx/nginx.conf:11
+2024/02/03 05:35:58 [emerg] 85#85: unexpected "}" in /etc/nginx/nginx.conf:11
+2024/02/03 05:36:00 [notice] 87#87: signal process started
+2024/02/03 05:36:10 [error] 89#89: *20 "/usr/share/nginx/html/count/index.html" is not found (2: No such file or directory), client: 192.168.65.1, server: , request: "GET /count/ HTTP/1.1", host: "localhost"
+2024/02/03 05:36:13 [error] 89#89: *20 open() "/usr/share/nginx/html/count/style.css" failed (2: No such file or directory), client: 192.168.65.1, server: , request: "GET /count/style.css HTTP/1.1", host: "localhost", referrer: "http://localhost/count/1"
+2024/02/03 05:36:15 [error] 89#89: *20 open() "/usr/share/nginx/html/count/style.css" failed (2: No such file or directory), client: 192.168.65.1, server: , request: "GET /count/style.css HTTP/1.1", host: "localhost", referrer: "http://localhost/count/2"
+2024/02/03 05:36:18 [error] 89#89: *20 open() "/usr/share/nginx/html/count/style.css" failed (2: No such file or directory), client: 192.168.65.1, server: , request: "GET /count/style.css HTTP/1.1", host: "localhost", referrer: "http://localhost/count/22"
+2024/02/03 05:36:22 [error] 89#89: *20 open() "/usr/share/nginx/html/count/style.css" failed (2: No such file or directory), client: 192.168.65.1, server: , request: "GET /count/style.css HTTP/1.1", host: "localhost", referrer: "http://localhost/count/22s"
+2024/02/03 05:36:24 [error] 89#89: *20 open() "/usr/share/nginx/html/count/style.css" failed (2: No such file or directory), client: 192.168.65.1, server: , request: "GET /count/style.css HTTP/1.1", host: "localhost", referrer: "http://localhost/count/22s"
+2024/02/03 05:36:25 [error] 89#89: *20 open() "/usr/share/nginx/html/count/style.css" failed (2: No such file or directory), client: 192.168.65.1, server: , request: "GET /count/style.css HTTP/1.1", host: "localhost", referrer: "http://localhost/count/22s"
+2024/02/03 05:36:26 [error] 89#89: *20 open() "/usr/share/nginx/html/count/style.css" failed (2: No such file or directory), client: 192.168.65.1, server: , request: "GET /count/style.css HTTP/1.1", host: "localhost", referrer: "http://localhost/count/22s"
+2024/02/03 05:36:26 [error] 89#89: *20 open() "/usr/share/nginx/html/count/style.css" failed (2: No such file or directory), client: 192.168.65.1, server: , request: "GET /count/style.css HTTP/1.1", host: "localhost", referrer: "http://localhost/count/22s"
+2024/02/03 05:36:27 [error] 89#89: *20 open() "/usr/share/nginx/html/count/style.css" failed (2: No such file or directory), client: 192.168.65.1, server: , request: "GET /count/style.css HTTP/1.1", host: "localhost", referrer: "http://localhost/count/22s"
+2024/02/03 05:36:28 [error] 89#89: *20 open() "/usr/share/nginx/html/count/style.css" failed (2: No such file or directory), client: 192.168.65.1, server: , request: "GET /count/style.css HTTP/1.1", host: "localhost", referrer: "http://localhost/count/22s"
+2024/02/03 05:36:32 [error] 89#89: *20 open() "/usr/share/nginx/html/count/style.css" failed (2: No such file or directory), client: 192.168.65.1, server: , request: "GET /count/style.css HTTP/1.1", host: "localhost", referrer: "http://localhost/count/22s"
+2024/02/03 05:36:32 [error] 89#89: *20 open() "/usr/share/nginx/html/favicon.ico" failed (2: No such file or directory), client: 192.168.65.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/count/22s"
+2024/02/03 05:38:31 [notice] 90#90: signal process started
+2024/02/03 05:38:42 [notice] 93#93: signal process started
+2024/02/03 05:41:29 [emerg] 96#96: directive "rewrite" is not terminated by ";" in /etc/nginx/nginx.conf:10
+2024/02/03 05:41:32 [notice] 98#98: signal process started
+2024/02/03 05:41:44 [error] 100#100: *25 open() "/usr/share/nginx/html/count/style" failed (2: No such file or directory), client: 192.168.65.1, server: , request: "GET /number/style.css HTTP/1.1", host: "localhost", referrer: "http://localhost/number/3"
+2024/02/03 10:16:23 [notice] 11#11: signal process started
+2024/02/03 10:17:29 [emerg] 14#14: unknown directive "upsteam" in /etc/nginx/nginx.conf:4
+2024/02/03 10:17:29 [emerg] 16#16: unknown directive "upsteam" in /etc/nginx/nginx.conf:4
+2024/02/03 10:17:33 [emerg] 18#18: unknown directive "upsteam" in /etc/nginx/nginx.conf:4
+2024/02/03 10:17:38 [emerg] 20#20: unknown directive "upsteam" in /etc/nginx/nginx.conf:4
+2024/02/03 10:17:39 [emerg] 22#22: unknown directive "upsteam" in /etc/nginx/nginx.conf:4
+2024/02/03 10:17:41 [emerg] 24#24: unknown directive "upsteam" in /etc/nginx/nginx.conf:4
+2024/02/03 10:17:46 [emerg] 26#26: unknown directive "upsteam" in /etc/nginx/nginx.conf:4
+2024/02/03 10:18:36 [emerg] 28#28: unknown directive "upsteam" in /etc/nginx/nginx.conf:4
+2024/02/03 10:18:47 [emerg] 30#30: invalid parameter "root" in /etc/nginx/nginx.conf:12
+2024/02/03 10:18:58 [emerg] 32#32: unexpected "}" in /etc/nginx/nginx.conf:18
+2024/02/03 10:19:07 [notice] 34#34: signal process started
+2024/02/03 10:19:13 [error] 36#36: *2 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.65.1, server: , request: "GET / HTTP/1.1", upstream: "http://127.0.0.1:4001/", host: "localhost"
+2024/02/03 10:19:16 [error] 36#36: *2 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.65.1, server: , request: "GET / HTTP/1.1", upstream: "http://127.0.0.1:4001/", host: "localhost"
+2024/02/03 10:19:18 [error] 36#36: *2 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.65.1, server: , request: "GET / HTTP/1.1", upstream: "http://127.0.0.1:4001/", host: "localhost"
+2024/02/03 10:19:41 [error] 36#36: *2 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.65.1, server: , request: "GET / HTTP/1.1", upstream: "http://127.0.0.1:4001/", host: "localhost"
+2024/02/03 10:20:04 [notice] 37#37: signal process started
+2024/02/03 10:20:06 [error] 36#36: *4 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.65.1, server: , request: "GET / HTTP/1.1", upstream: "http://127.0.0.1:4001/", host: "localhost"
+2024/02/03 10:20:07 [error] 39#39: *9 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.65.1, server: , request: "GET / HTTP/1.1", upstream: "https://127.0.0.1:4001/", host: "localhost"
+2024/02/03 10:20:07 [error] 39#39: *9 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.65.1, server: , request: "GET / HTTP/1.1", upstream: "https://127.0.0.1:4001/", host: "localhost"
+2024/02/03 10:20:07 [error] 39#39: *9 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.65.1, server: , request: "GET / HTTP/1.1", upstream: "https://127.0.0.1:4001/", host: "localhost"
+2024/02/03 10:20:07 [error] 39#39: *9 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.65.1, server: , request: "GET / HTTP/1.1", upstream: "https://127.0.0.1:4001/", host: "localhost"
+2024/02/03 10:20:07 [error] 39#39: *9 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.65.1, server: , request: "GET / HTTP/1.1", upstream: "https://127.0.0.1:4001/", host: "localhost"
+2024/02/03 10:20:08 [error] 39#39: *9 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.65.1, server: , request: "GET / HTTP/1.1", upstream: "https://127.0.0.1:4001/", host: "localhost"
+2024/02/03 10:20:10 [error] 39#39: *9 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.65.1, server: , request: "GET / HTTP/1.1", upstream: "https://127.0.0.1:4001/", host: "localhost"
+2024/02/03 10:20:10 [error] 39#39: *9 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.65.1, server: , request: "GET /favicon.ico HTTP/1.1", upstream: "https://127.0.0.1:4001/favicon.ico", host: "localhost", referrer: "http://localhost/"
+2024/02/03 10:20:12 [notice] 40#40: signal process started
+2024/02/03 10:20:43 [notice] 43#43: signal process started
+2024/02/03 10:20:47 [error] 39#39: *11 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.65.1, server: , request: "GET / HTTP/1.1", upstream: "https://127.0.0.1:4001/", host: "localhost"
+2024/02/03 10:20:47 [error] 45#45: *20 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.65.1, server: , request: "GET /favicon.ico HTTP/1.1", upstream: "http://127.0.0.1:4001/favicon.ico", host: "localhost", referrer: "http://localhost/"
+2024/02/03 10:20:48 [error] 45#45: *20 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.65.1, server: , request: "GET / HTTP/1.1", upstream: "http://127.0.0.1:4001/", host: "localhost"
+2024/02/03 10:20:48 [error] 45#45: *20 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.65.1, server: , request: "GET /favicon.ico HTTP/1.1", upstream: "http://127.0.0.1:4001/favicon.ico", host: "localhost", referrer: "http://localhost/"
+2024/02/03 10:20:48 [error] 45#45: *20 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.65.1, server: , request: "GET / HTTP/1.1", upstream: "http://127.0.0.1:4001/", host: "localhost"
+2024/02/03 10:20:48 [error] 45#45: *20 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.65.1, server: , request: "GET /favicon.ico HTTP/1.1", upstream: "http://127.0.0.1:4001/favicon.ico", host: "localhost", referrer: "http://localhost/"
+2024/02/03 10:20:48 [error] 45#45: *20 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.65.1, server: , request: "GET / HTTP/1.1", upstream: "http://127.0.0.1:4001/", host: "localhost"
+2024/02/03 10:20:48 [error] 45#45: *20 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.65.1, server: , request: "GET /favicon.ico HTTP/1.1", upstream: "http://127.0.0.1:4001/favicon.ico", host: "localhost", referrer: "http://localhost/"
+2024/02/03 10:20:49 [error] 45#45: *20 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.65.1, server: , request: "GET / HTTP/1.1", upstream: "http://127.0.0.1:4001/", host: "localhost"
+2024/02/03 10:20:49 [error] 45#45: *20 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.65.1, server: , request: "GET /favicon.ico HTTP/1.1", upstream: "http://127.0.0.1:4001/favicon.ico", host: "localhost", referrer: "http://localhost/"
+2024/02/03 10:20:49 [error] 45#45: *20 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.65.1, server: , request: "GET / HTTP/1.1", upstream: "http://127.0.0.1:4001/", host: "localhost"
+2024/02/03 10:20:49 [error] 45#45: *20 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.65.1, server: , request: "GET /favicon.ico HTTP/1.1", upstream: "http://127.0.0.1:4001/favicon.ico", host: "localhost", referrer: "http://localhost/"
+2024/02/03 10:20:50 [error] 45#45: *20 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.65.1, server: , request: "GET / HTTP/1.1", upstream: "http://127.0.0.1:4001/", host: "localhost"
+2024/02/03 10:20:50 [error] 45#45: *20 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.65.1, server: , request: "GET /favicon.ico HTTP/1.1", upstream: "http://127.0.0.1:4001/favicon.ico", host: "localhost", referrer: "http://localhost/"
+2024/02/03 10:20:50 [error] 45#45: *20 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.65.1, server: , request: "GET / HTTP/1.1", upstream: "http://127.0.0.1:4001/", host: "localhost"
+2024/02/03 10:20:50 [error] 45#45: *20 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.65.1, server: , request: "GET /favicon.ico HTTP/1.1", upstream: "http://127.0.0.1:4001/favicon.ico", host: "localhost", referrer: "http://localhost/"
+2024/02/03 10:20:50 [error] 45#45: *20 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.65.1, server: , request: "GET / HTTP/1.1", upstream: "http://127.0.0.1:4001/", host: "localhost"
+2024/02/03 10:20:50 [error] 45#45: *20 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.65.1, server: , request: "GET /favicon.ico HTTP/1.1", upstream: "http://127.0.0.1:4001/favicon.ico", host: "localhost", referrer: "http://localhost/"
+2024/02/03 10:20:53 [error] 45#45: *20 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.65.1, server: , request: "GET / HTTP/1.1", upstream: "http://127.0.0.1:4001/", host: "localhost"
+2024/02/03 10:20:53 [error] 45#45: *20 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.65.1, server: , request: "GET /favicon.ico HTTP/1.1", upstream: "http://127.0.0.1:4001/favicon.ico", host: "localhost", referrer: "http://localhost/"
+2024/02/03 10:20:55 [error] 45#45: *20 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.65.1, server: , request: "GET /count/style.css HTTP/1.1", upstream: "http://127.0.0.1:4001/count/style.css", host: "localhost", referrer: "http://localhost/count/22s"
+2024/02/03 10:20:55 [error] 45#45: *20 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.65.1, server: , request: "GET /favicon.ico HTTP/1.1", upstream: "http://127.0.0.1:4001/favicon.ico", host: "localhost", referrer: "http://localhost/count/22s"
+2024/02/03 10:20:57 [error] 45#45: *20 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.65.1, server: , request: "GET / HTTP/1.1", upstream: "http://127.0.0.1:4001/", host: "localhost"
+2024/02/03 10:20:57 [error] 45#45: *20 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.65.1, server: , request: "GET /favicon.ico HTTP/1.1", upstream: "http://127.0.0.1:4001/favicon.ico", host: "localhost", referrer: "http://localhost/"
+2024/02/03 10:21:00 [error] 45#45: *20 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.65.1, server: , request: "GET / HTTP/1.1", upstream: "http://127.0.0.1:4001/", host: "localhost"
+2024/02/03 10:21:00 [error] 45#45: *20 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.65.1, server: , request: "GET /favicon.ico HTTP/1.1", upstream: "http://127.0.0.1:4001/favicon.ico", host: "localhost", referrer: "http://localhost/"
+2024/02/03 10:21:02 [error] 45#45: *20 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.65.1, server: , request: "GET / HTTP/1.1", upstream: "http://127.0.0.1:4001/", host: "localhost"
+2024/02/03 10:21:02 [error] 45#45: *20 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.65.1, server: , request: "GET /favicon.ico HTTP/1.1", upstream: "http://127.0.0.1:4001/favicon.ico", host: "localhost", referrer: "http://localhost/"
+2024/02/03 10:21:04 [notice] 46#46: signal process started
+2024/02/03 10:21:13 [notice] 49#49: signal process started
+2024/02/03 10:21:14 [emerg] 52#52: unexpected end of file, expecting "}" in /etc/nginx/nginx.conf:44
+2024/02/03 10:21:17 [error] 45#45: *23 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.65.1, server: , request: "GET / HTTP/1.1", upstream: "http://127.0.0.1:4001/", host: "localhost"
+2024/02/03 10:21:17 [error] 51#51: *50 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.65.1, server: , request: "GET /favicon.ico HTTP/1.1", upstream: "http://127.0.0.1:4001/favicon.ico", host: "localhost", referrer: "http://localhost/"
+2024/02/03 10:21:17 [error] 51#51: *50 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.65.1, server: , request: "GET /favicon.ico HTTP/1.1", upstream: "http://127.0.0.1:4002/favicon.ico", host: "localhost", referrer: "http://localhost/"
+2024/02/03 10:21:17 [error] 51#51: *50 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.65.1, server: , request: "GET /favicon.ico HTTP/1.1", upstream: "http://127.0.0.1:4003/favicon.ico", host: "localhost", referrer: "http://localhost/"
+2024/02/03 10:21:17 [error] 51#51: *50 no live upstreams while connecting to upstream, client: 192.168.65.1, server: , request: "GET / HTTP/1.1", upstream: "http://backendserver/", host: "localhost"
+2024/02/03 10:21:17 [error] 51#51: *50 no live upstreams while connecting to upstream, client: 192.168.65.1, server: , request: "GET /favicon.ico HTTP/1.1", upstream: "http://backendserver/favicon.ico", host: "localhost", referrer: "http://localhost/"
+2024/02/03 10:21:40 [notice] 54#54: signal process started
+2024/02/03 10:21:42 [error] 51#51: *54 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.65.1, server: , request: "GET / HTTP/1.1", upstream: "http://127.0.0.1:4003/", host: "localhost"
+2024/02/03 10:21:42 [error] 51#51: *54 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.65.1, server: , request: "GET / HTTP/1.1", upstream: "http://127.0.0.1:4002/", host: "localhost"
+2024/02/03 10:21:42 [error] 51#51: *54 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.65.1, server: , request: "GET / HTTP/1.1", upstream: "http://127.0.0.1:4001/", host: "localhost"
+2024/02/03 10:21:42 [error] 56#56: *57 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.65.1, server: , request: "GET /favicon.ico HTTP/1.1", upstream: "http://127.0.0.1:7777/favicon.ico", host: "localhost", referrer: "http://localhost/"
+2024/02/03 10:21:42 [error] 56#56: *57 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.65.1, server: , request: "GET / HTTP/1.1", upstream: "http://127.0.0.1:7777/", host: "localhost"
+2024/02/03 10:21:42 [error] 56#56: *57 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.65.1, server: , request: "GET /favicon.ico HTTP/1.1", upstream: "http://127.0.0.1:7777/favicon.ico", host: "localhost", referrer: "http://localhost/"
+2024/02/03 10:21:43 [error] 56#56: *57 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.65.1, server: , request: "GET / HTTP/1.1", upstream: "http://127.0.0.1:7777/", host: "localhost"
+2024/02/03 10:21:43 [error] 56#56: *57 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.65.1, server: , request: "GET /favicon.ico HTTP/1.1", upstream: "http://127.0.0.1:7777/favicon.ico", host: "localhost", referrer: "http://localhost/"
+2024/02/03 10:21:43 [error] 56#56: *57 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.65.1, server: , request: "GET / HTTP/1.1", upstream: "http://127.0.0.1:7777/", host: "localhost"
+2024/02/03 10:21:43 [error] 56#56: *57 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.65.1, server: , request: "GET /favicon.ico HTTP/1.1", upstream: "http://127.0.0.1:7777/favicon.ico", host: "localhost", referrer: "http://localhost/"
+2024/02/03 10:21:43 [error] 56#56: *57 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.65.1, server: , request: "GET / HTTP/1.1", upstream: "http://127.0.0.1:7777/", host: "localhost"
+2024/02/03 10:21:43 [error] 56#56: *57 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.65.1, server: , request: "GET /favicon.ico HTTP/1.1", upstream: "http://127.0.0.1:7777/favicon.ico", host: "localhost", referrer: "http://localhost/"
+2024/02/03 10:21:43 [error] 56#56: *57 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.65.1, server: , request: "GET / HTTP/1.1", upstream: "http://127.0.0.1:7777/", host: "localhost"
+2024/02/03 10:21:43 [error] 56#56: *57 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.65.1, server: , request: "GET /favicon.ico HTTP/1.1", upstream: "http://127.0.0.1:7777/favicon.ico", host: "localhost", referrer: "http://localhost/"
+2024/02/03 10:21:43 [error] 56#56: *57 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.65.1, server: , request: "GET / HTTP/1.1", upstream: "http://127.0.0.1:7777/", host: "localhost"
+2024/02/03 10:21:43 [error] 56#56: *57 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.65.1, server: , request: "GET /favicon.ico HTTP/1.1", upstream: "http://127.0.0.1:7777/favicon.ico", host: "localhost", referrer: "http://localhost/"
+2024/02/03 10:21:44 [error] 56#56: *57 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.65.1, server: , request: "GET / HTTP/1.1", upstream: "http://127.0.0.1:7777/", host: "localhost"
+2024/02/03 10:21:44 [error] 56#56: *57 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.65.1, server: , request: "GET /favicon.ico HTTP/1.1", upstream: "http://127.0.0.1:7777/favicon.ico", host: "localhost", referrer: "http://localhost/"
+2024/02/03 10:21:44 [error] 56#56: *57 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.65.1, server: , request: "GET / HTTP/1.1", upstream: "http://127.0.0.1:7777/", host: "localhost"
+2024/02/03 10:21:44 [error] 56#56: *57 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.65.1, server: , request: "GET /favicon.ico HTTP/1.1", upstream: "http://127.0.0.1:7777/favicon.ico", host: "localhost", referrer: "http://localhost/"
+2024/02/03 10:21:52 [emerg] 57#57: unexpected "}" in /etc/nginx/nginx.conf:18
+2024/02/03 10:21:53 [emerg] 59#59: unexpected end of file, expecting "}" in /etc/nginx/nginx.conf:44
+2024/02/03 10:21:58 [notice] 61#61: signal process started
+2024/02/03 10:22:04 [notice] 64#64: signal process started
+2024/02/03 10:22:06 [error] 56#56: *61 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.65.1, server: , request: "GET / HTTP/1.1", upstream: "http://127.0.0.1:7777/", host: "localhost"
+2024/02/03 10:22:06 [error] 66#66: *78 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.65.1, server: , request: "GET /favicon.ico HTTP/1.1", upstream: "http://127.0.0.1:4001/favicon.ico", host: "localhost", referrer: "http://localhost/"
+2024/02/03 10:22:06 [error] 66#66: *78 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.65.1, server: , request: "GET /favicon.ico HTTP/1.1", upstream: "http://127.0.0.1:4002/favicon.ico", host: "localhost", referrer: "http://localhost/"
+2024/02/03 10:22:06 [error] 66#66: *78 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.65.1, server: , request: "GET /favicon.ico HTTP/1.1", upstream: "http://127.0.0.1:4003/favicon.ico", host: "localhost", referrer: "http://localhost/"
+2024/02/03 10:22:07 [error] 66#66: *78 no live upstreams while connecting to upstream, client: 192.168.65.1, server: , request: "GET / HTTP/1.1", upstream: "http://backendserver/", host: "localhost"
+2024/02/03 10:22:07 [error] 66#66: *78 no live upstreams while connecting to upstream, client: 192.168.65.1, server: , request: "GET /favicon.ico HTTP/1.1", upstream: "http://backendserver/favicon.ico", host: "localhost", referrer: "http://localhost/"
+2024/02/03 10:22:07 [error] 66#66: *78 no live upstreams while connecting to upstream, client: 192.168.65.1, server: , request: "GET / HTTP/1.1", upstream: "http://backendserver/", host: "localhost"
+2024/02/03 10:22:07 [error] 66#66: *78 no live upstreams while connecting to upstream, client: 192.168.65.1, server: , request: "GET /favicon.ico HTTP/1.1", upstream: "http://backendserver/favicon.ico", host: "localhost", referrer: "http://localhost/"
+2024/02/03 10:22:07 [error] 66#66: *78 no live upstreams while connecting to upstream, client: 192.168.65.1, server: , request: "GET / HTTP/1.1", upstream: "http://backendserver/", host: "localhost"
+2024/02/03 10:22:07 [error] 66#66: *78 no live upstreams while connecting to upstream, client: 192.168.65.1, server: , request: "GET /favicon.ico HTTP/1.1", upstream: "http://backendserver/favicon.ico", host: "localhost", referrer: "http://localhost/"
+2024/02/03 10:22:07 [error] 66#66: *78 no live upstreams while connecting to upstream, client: 192.168.65.1, server: , request: "GET / HTTP/1.1", upstream: "http://backendserver/", host: "localhost"
+2024/02/03 10:22:07 [error] 66#66: *78 no live upstreams while connecting to upstream, client: 192.168.65.1, server: , request: "GET /favicon.ico HTTP/1.1", upstream: "http://backendserver/favicon.ico", host: "localhost", referrer: "http://localhost/"
+2024/02/03 10:22:09 [error] 66#66: *78 no live upstreams while connecting to upstream, client: 192.168.65.1, server: , request: "GET / HTTP/1.1", upstream: "http://backendserver/", host: "localhost"
+2024/02/03 10:22:09 [error] 66#66: *78 no live upstreams while connecting to upstream, client: 192.168.65.1, server: , request: "GET /favicon.ico HTTP/1.1", upstream: "http://backendserver/favicon.ico", host: "localhost", referrer: "http://localhost/"
+2024/02/03 10:22:43 [notice] 67#67: signal process started
+2024/02/03 10:22:47 [error] 66#66: *82 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.65.1, server: , request: "GET /t HTTP/1.1", upstream: "http://127.0.0.1:4003/t", host: "localhost"
+2024/02/03 10:22:47 [error] 66#66: *82 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.65.1, server: , request: "GET /t HTTP/1.1", upstream: "http://127.0.0.1:4002/t", host: "localhost"
+2024/02/03 10:22:47 [error] 66#66: *82 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.65.1, server: , request: "GET /t HTTP/1.1", upstream: "http://127.0.0.1:4001/t", host: "localhost"
+2024/02/03 10:22:47 [error] 69#69: *86 open() "/usr/share/nginx/html/favicon.ico" failed (2: No such file or directory), client: 192.168.65.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/t"
+2024/02/03 10:22:49 [error] 69#69: *86 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.65.1, server: , request: "GET /t HTTP/1.1", upstream: "http://127.0.0.1:4001/", host: "localhost"
+2024/02/03 10:22:49 [error] 69#69: *86 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.65.1, server: , request: "GET /t HTTP/1.1", upstream: "http://127.0.0.1:4002/", host: "localhost"
+2024/02/03 10:22:49 [error] 69#69: *86 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.65.1, server: , request: "GET /t HTTP/1.1", upstream: "http://127.0.0.1:4003/", host: "localhost"
+2024/02/03 10:24:01 [emerg] 70#70: invalid URL prefix in /etc/nginx/nginx.conf:17
+2024/02/03 10:24:10 [notice] 72#72: signal process started
+2024/02/03 10:24:17 [notice] 75#75: signal process started
+2024/02/03 10:25:01 [emerg] 78#78: invalid host in upstream "http://server1:7777" in /etc/nginx/nginx.conf:5
+2024/02/03 10:25:09 [emerg] 80#80: invalid host in upstream "http://server1:7777" in /etc/nginx/nginx.conf:5
+2024/02/03 10:26:59 [emerg] 82#82: unknown directive "serverserver3:7777" in /etc/nginx/nginx.conf:7
+2024/02/03 10:27:00 [emerg] 84#84: unexpected end of file, expecting "}" in /etc/nginx/nginx.conf:44
+2024/02/03 10:27:02 [notice] 86#86: signal process started
+2024/02/03 10:27:19 [notice] 89#89: signal process started
